@@ -11,7 +11,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const about = () => {
+const About = () => {
 	const skillsRef = useRef(null);
 	const experienceRef = useRef(null);
 	const educationRef = useRef(null);
@@ -157,4 +157,4 @@ const about = () => {
 	);
 };
 
-export default about;
+export default About;

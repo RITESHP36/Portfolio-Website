@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const contact = () => {
+const Contact = () => {
 	const text1 = "Let's Connect!";
 	const [success, setSuccess] = useState(false);
 	const [error, setError] = useState(false);
@@ -108,4 +108,4 @@ const contact = () => {
 	);
 };
 
-export default contact;
+export default Contact;
