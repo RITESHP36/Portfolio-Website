@@ -66,7 +66,7 @@ const About = () => {
 							<p className="font-medium text-sm">
 								From Odisha, I draw inspiration from my roots to create unique
 								designs. I commit to excellence and user-centered thinking in
-								all projects, whether it's an e-commerce platform, social app,
+								all projects, whether it&apos;s an e-commerce platform, social app,
 								or portfolio website.
 							</p>
 						</div>
