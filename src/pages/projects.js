@@ -10,7 +10,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 import TokenImg from "../../public/images/projects/Token.png";
 import UrbanDwellImg from "../../public/images/projects/UrbanDwell.png"
-import EatOutImg from "../../public/images/projects/EatOut.png"
+import EatOutImg from "../../public/images/projects/Eatout.png"
 import BloggingBlitzImg from "../../public/images/projects/BloggingBlitz.png"
 import VoteImg from "../../public/images/projects/Vote.png"
 import TechnoVITImg from "../../public/images/projects/TechnoVIT.png"
