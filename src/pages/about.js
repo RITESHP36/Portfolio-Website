@@ -51,7 +51,7 @@ const about = () => {
 								Biography
 							</h2>
 							<p className="font-medium text-sm text-justify">
-								I'm Ritesh Pradhan, a web developer and ML enthusiast with a
+								I&apos;m Ritesh Pradhan, a web developer and ML enthusiast with a
 								year of experience creating websites. I focus on
 								user-centered design, solving real-world problems, and enhancing
 								user experiences through meticulous attention to detail.
