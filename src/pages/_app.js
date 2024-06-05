@@ -5,6 +5,7 @@ import Head from "next/head";
 import Footer from "@/components/Footer";
 import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }) {
 	const router= useRouter()
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
 				<Component key={router.asPath} {...pageProps} />
 				</AnimatePresence>
 				<Footer />
+				<Analytics />
 			</main>
 		</>
 	);
