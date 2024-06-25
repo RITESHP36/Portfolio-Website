@@ -57,7 +57,7 @@ const About = () => {
 								user experiences through meticulous attention to detail.
 							</p>
 							<p className="font-medium my-4 text-sm">
-								I pursued a B.Tech in Computer Science and Engineering with a
+								I am pursuing B.Tech in Computer Science and Engineering with a
 								specialization in AI and ML at Vellore Institute of Technology,
 								Chennai. I stay updated with industry trends, continuously
 								improving my skills as a web developer and competitive
