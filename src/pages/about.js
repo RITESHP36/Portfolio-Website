@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import React, { useRef } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile.png";
+import profilePic from "../../public/images/profile/profile3.png";
 import { FaRocket, FaLightbulb, FaGraduationCap } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Skills from "@/components/Skills";
