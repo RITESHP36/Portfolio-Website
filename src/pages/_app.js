@@ -37,13 +37,15 @@ export default function App({ Component, pageProps }) {
 				async
 				src="https://www.googletagmanager.com/gtag/js?id=G-9HC9M72TFR"
 			></Script>
-			<Script>
-				{`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-9HC9M72TFR');
-          `}
+			<Script
+			  id="google-analytics-script" // Added an id attribute here
+			>
+			  {`window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+			
+				gtag('config', 'G-9HC9M72TFR');
+			  `}
 			</Script>
 			<main className="font-mont bg-light dark:bg-dark w-full min-h-screen">
 				<Navbar />

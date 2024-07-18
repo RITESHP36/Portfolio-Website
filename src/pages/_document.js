@@ -20,13 +20,15 @@ class MyDocument extends Document {
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=G-9HC9M72TFR"
 				></Script>
-				<Script>
-					{`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-9HC9M72TFR');
-          `}
+				<Script
+				  id="google-analytics-script" // Added an id attribute here
+				>
+				  {`window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+				
+					gtag('config', 'G-9HC9M72TFR');
+				  `}
 				</Script>
 				<body>
 					<Script id="theme-switcher" strategy="beforeInteractive">
