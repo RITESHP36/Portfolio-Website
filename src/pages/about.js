@@ -51,23 +51,10 @@ const About = () => {
 								Biography
 							</h2>
 							<p className="font-medium text-sm text-justify">
-								I&apos;m Ritesh Pradhan, a web developer and ML enthusiast with a
-								year of experience creating websites. I focus on
-								user-centered design, solving real-world problems, and enhancing
-								user experiences through meticulous attention to detail.
+							    I'm Ritesh Pradhan, a final-year student at VIT Chennai pursuining CSE with Spec. in AI & Ml. I believe the most effective technology is practical, impactful, and built with a clear purpose. 
 							</p>
-							<p className="font-medium my-4 text-sm">
-								I am pursuing B.Tech in Computer Science and Engineering with a
-								specialization in AI and ML at Vellore Institute of Technology,
-								Chennai. I stay updated with industry trends, continuously
-								improving my skills as a web developer and competitive
-								programmer.
-							</p>
-							<p className="font-medium text-sm">
-								From Odisha, I draw inspiration from my roots to create unique
-								designs. I commit to excellence and user-centered thinking in
-								all projects, whether it&apos;s an e-commerce platform, social app,
-								or portfolio website.
+							<p className="font-medium my-4 text-sm text-justify">
+							    With a year of experience in web development, I focus on user-centered design and solving complex real-world problems. My academic journey and project work, have taught me the importance of understanding the end-user and the business context. This principle guides my approach to building robust and scalable systems, from optimizing operational efficiency to automating intricate processes.
 							</p>
 						</div>
 						{/* image */}

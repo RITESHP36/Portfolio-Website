@@ -8,12 +8,14 @@ import { GithubIcon } from "@/components/Icons";
 import { LinkArrow } from "@/components/Icons";
 import TransitionEffect from "@/components/TransitionEffect";
 
+// Import your project images
 import TokenImg from "../../public/images/projects/Token.png";
-import UrbanDwellImg from "../../public/images/projects/UrbanDwell.png"
-import EatOutImg from "../../public/images/projects/Eatout.png"
-import BloggingBlitzImg from "../../public/images/projects/BloggingBlitz.png"
-import VoteImg from "../../public/images/projects/Vote.png"
-import TechnoVITImg from "../../public/images/projects/TechnoVIT.png"
+import UrbanDwellImg from "../../public/images/projects/UrbanDwell.png";
+import EatOutImg from "../../public/images/projects/Eatout.png";
+import BloggingBlitzImg from "../../public/images/projects/BloggingBlitz.png";
+import VoteImg from "../../public/images/projects/Vote.png";
+import TechnoVITImg from "../../public/images/projects/TechnoVIT.png";
+import AIRetailImg from "../../public/images/projects/ai-retail-platform.png"; // <-- Make sure to create this image file!
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 	return (
@@ -33,6 +35,8 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 					src={img}
 					alt={title}
 					className="w-full h-auto max-h-80 object-cover"
+                    priority // Add priority for featured project images if they are above the fold
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
 				/>
 			</Link>
 			<div className="w-1/2 flex flex-col items-start justify-between pl-6
@@ -128,6 +132,18 @@ const Projects = () => {
 					<div className="grid grid-cols-12 gap-24 gap-y-32
 					xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0
 					">
+						{/* NEW FEATURED PROJECT: AI-Powered Retail Operations Platform */}
+						<div className="col-span-12">
+							<FeaturedProject
+								title="AI-Powered Retail Operations Platform"
+								summary="Architected a unified retail operations platform with Next.js and Firebase, integrating modules for inventory control, sales logging, and staff performance management, processing over 7,000 monthly transactions for 2 Reliance Retail stores. Integrated Google’s Gemini API to create a generative AI engine that delivers actionable insights, including sales forecasting, profit quadrant analysis, and proactive stockout alerts."
+								img={AIRetailImg} // Make sure AIRetailImg is imported and points to your project's image
+								link="https://dryfruit-manager.vercel.app/" // <-- IMPORTANT: Replace with actual live link
+								github="https://github.com/RITESHP36/dryfruit-inventory-manager" // <-- IMPORTANT: Replace with actual GitHub link
+							/>
+						</div>
+
+						{/* Existing Featured Project */}
 						<div className="col-span-12">
 							<FeaturedProject
 								title="Digital Token Generation And Validation"
@@ -155,6 +171,7 @@ const Projects = () => {
 								github="https://github.com/RITESHP36/Eat_Out"
 							/>
 						</div>
+						{/* Existing Featured Project */}
 						<div className="col-span-12">
 							<FeaturedProject
 								title="Blogging Blitz"

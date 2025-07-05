@@ -74,7 +74,7 @@ const Education = () => {
 						time="2022 - Present"
 						institution="Vellore Institute of Technology, Chennai Campus"
 						logo={VIT_Logo}
-						performance="CGPA: 9.72/10"
+						performance="CGPA: 9.64/10"
 					/>
 					<Details
 						type="Senior Secondary (Class XII)"

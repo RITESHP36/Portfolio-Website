@@ -43,22 +43,22 @@ export default function Home() {
 							</p>
 							<div className="flex items-center self-start mt-2 lg:self-center">
 								<Link
-									href="https://docs.google.com/document/d/1VLPO4GIGLlNDdmFmLaccQwcKrxqA0wGlqn47k00kZ2M/export?format=pdf"
+									href="mailto:riteshpradhan2003@gmail.com"
 									target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark duration-300 dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-dark hover:dark:border-light
 				  md:p-2 md:px-4 md:text-base 
 				  "
 								>
-									Resume
+									Contact
                   <LinkArrow className="w-6 h-6 ml-1" />
 								</Link>
-								<Link href="mailto:riteshpradhan2003@gmail.com" target="_blank"
+								{/* <Link href="mailto:riteshpradhan2003@gmail.com" target="_blank"
                 className="ml-4  text-lg font-medium capitalize text-dark underline dark:text-light
 				md:text-base
 				"
                 >
 									Contact
-								</Link>
+								</Link> */}
 							</div>
 						</div>
 					</div>
